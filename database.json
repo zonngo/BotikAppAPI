@@ -1,0 +1,19 @@
+{
+  "defaultEnv": "dev",
+  "dev": {
+    "driver": "mysql",
+    "host": {
+      "ENV": "MED_DB_HOST"
+    },
+    "user": {
+      "ENV": "MED_DB_USER"
+    },
+    "password": {
+      "ENV": "MED_DB_PASSWORD"
+    },
+    "database": {
+      "ENV": "MED_DB_NAME"
+    },
+    "multipleStatements": true
+  }
+}

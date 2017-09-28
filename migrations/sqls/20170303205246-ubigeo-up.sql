@@ -1,0 +1,15 @@
+/* Replace with your SQL commands */
+
+CREATE TABLE IF NOT EXISTS `UBIGEO` (
+  `id` INT,
+  `name` VARCHAR(64) NULL DEFAULT NULL,
+  `tipo` TINYINT(4) NULL DEFAULT NULL,
+  `parent` INT(11) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  INDEX `fk_UBIGEO_UBIGEO1_idx` (`parent` ASC),
+  CONSTRAINT `fk_UBIGEO_UBIGEO1`
+    FOREIGN KEY (`parent`)
+    REFERENCES `UBIGEO` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION
+) DEFAULT CHARACTER SET = utf8;

@@ -1,0 +1,31 @@
+{
+  "name": "zonngo-medicine-api",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "debug": "^3.0.1",
+    "dotenv": "^4.0.0",
+    "email-validator": "^1.1.1",
+    "express": "^4.15.5",
+    "memory-cache": "^0.2.0",
+    "morgan": "^1.8.2",
+    "mysql": "^2.14.1",
+    "pug": "^2.0.0-rc.4",
+    "request": "^2.82.0",
+    "serve-favicon": "^2.4.4",
+    "randomstring": "^1.1.5"
+  },
+  "devDependencies": {
+    "db-migrate": "^0.10.0-beta.24",
+    "db-migrate-mysql": "^1.1.10",
+    "mysqldump": "^1.4.2",
+    "gulp": "^3.9.1",
+    "gulp-apidoc": "^0.2.6"
+  }
+}

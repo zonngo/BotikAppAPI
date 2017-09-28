@@ -1,0 +1,12 @@
+/* Replace with your SQL commands */
+
+CREATE TABLE IF NOT EXISTS `DONATIONS` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`medicamento` VARCHAR(64) NULL DEFAULT NULL,
+	`descripcion` VARCHAR(255) NULL DEFAULT NULL,
+	`cantidad` INT(11) NULL DEFAULT NULL,
+	`lat` FLOAT( 10, 6 ) DEFAULT NULL,
+	`lng` FLOAT( 10, 6 ) DEFAULT NULL,
+	`id_user` VARCHAR(15) NOT NULL,
+	PRIMARY KEY (`id`)
+) DEFAULT CHARACTER SET = utf8;

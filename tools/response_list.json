@@ -1,0 +1,10 @@
+{
+  "200": "Ok.",
+  "201": "Created",
+  "400": "Bad request.",
+  "401": "You are not allowed to use this resource.",
+  "404": "Resource not found.",
+  "405": "Method not implemented.",
+  "409": "Conflict.",
+  "500": "Internal error."
+}

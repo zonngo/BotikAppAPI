@@ -1,0 +1,20 @@
+{
+  "name": "Zonngo-Botikapp-API",
+  "version": "1.0",
+  "description": "Documentation for Botikapp API",
+  "title": "Apidoc - Botikapp API",
+  "url": "https://api.botikapp.zonngo.com/v1.0",
+  "sampleUrl": "https://api.botikapp.zonngo.com/v1.0",
+  "header": {
+    "title": "Zonngo API",
+    "filename": "doc/header.md"
+  },
+  "footer": {
+    "title": "Zonngo Inc.",
+    "filename": "doc/footer.md"
+  },
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  }
+}
