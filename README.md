@@ -16,3 +16,7 @@
 ## Generate documentation
 1. `gulp apidoc`
 2. go http://localhost:3000/apidoc
+
+
+## License
+MIT
